@@ -1,0 +1,13 @@
+body {
+    background-color: lightsteelblue;
+}
+
+#main-title {
+    font-family: monospace;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+    margin-bottom: 12px;
+}

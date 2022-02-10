@@ -1,0 +1,23 @@
+<body>
+    <input id="name-input" type="text" placeholder="Enter your name" />
+    <button id="my-button">
+        Click Me
+    </button>
+
+    <script>
+        // Introduces a button and input box instances
+        var myButton = document.querySelector('#my-button');
+        var nameInput = document.querySelector('#name-input');
+      
+        // Add an click listener that runs code when activated
+        myButton.addEventListener('click', function () 
+        {
+          // If the button is not blank
+          if (nameInput.value !== '') 
+          {
+            // Display a message responding to input
+            alert('Hello ' + nameInput.value);
+          }
+        });
+      </script>
+</body>
